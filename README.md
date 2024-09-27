@@ -1,75 +1,13 @@
-# Nuxt 3 Minimal Starter
+The controller checks the provided username against the registered accounts to verify authenticity.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![2](https://github.com/user-attachments/assets/6b00eea5-2a4b-4574-9558-c03e6f885db3)
 
-## Setup
+If the provided credentials do not match any existing accounts, an error message is displayed to the user. This message is designed to be clear and informative, guiding users to correct their input.
 
-Make sure to install the dependencies:
+Allowed username : test_username , password is not neccessary
 
-```bash
-# npm
-npm install
+![img1](https://github.com/user-attachments/assets/979fdb63-7c7a-4ed9-a30c-c49dbd6d6b56)
 
-# pnpm
-pnpm install
+You can view the images provided for CATAPI. To modify the content, simply click the 'Change' button.
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+![4](https://github.com/user-attachments/assets/eff0c2a6-7530-4ef6-9c9a-55176af02b7b)
